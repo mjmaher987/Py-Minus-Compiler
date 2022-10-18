@@ -1,0 +1,13 @@
+# test case 4
+
+def sumTwo(a, b):
+     return a+b;
+     ;
+
+def sumThree(a, b, c):
+     return a+sumTwo(b,c);
+     ;
+
+
+l = [1,2,3,sumThree(1,2,3)];
+a = sumThree(l[3], 2, l[1]+l[2]) - 1 + 2;

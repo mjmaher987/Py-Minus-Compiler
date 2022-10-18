@@ -1,0 +1,48 @@
+Program
+├── Statements
+│   ├── Statement
+│   │   └── Compound_stmt
+│   │       └── Function_def
+│   │           ├── (KEYWORD, def)
+│   │           ├── (ID, main)
+│   │           ├── (SYMBOL, ()
+│   │           ├── Params
+│   │           │   └── epsilon
+│   │           ├── (SYMBOL, ))
+│   │           └── Statements
+│   │               ├── Statement
+│   │               │   └── Simple_stmt
+│   │               │       └── Assignment_Call
+│   │               │           ├── (ID, a)
+│   │               │           └── B
+│   │               │               ├── (SYMBOL, =)
+│   │               │               └── C
+│   │               │                   └── Expression
+│   │               │                       ├── Term
+│   │               │                       │   ├── Factor
+│   │               │                       │   │   ├── Atom
+│   │               │                       │   │   │   └── (NUM, 2)
+│   │               │                       │   │   └── Power
+│   │               │                       │   │       └── Primary
+│   │               │                       │   │           └── epsilon
+│   │               │                       │   └── Term_Prime
+│   │               │                       │       └── epsilon
+│   │               │                       └── Expression_Prime
+│   │               │                           ├── (SYMBOL, +)
+│   │               │                           ├── Term
+│   │               │                           │   ├── Factor
+│   │               │                           │   │   ├── Atom
+│   │               │                           │   │   │   └── (ID, b)
+│   │               │                           │   │   └── Power
+│   │               │                           │   │       └── Primary
+│   │               │                           │   │           └── epsilon
+│   │               │                           │   └── Term_Prime
+│   │               │                           │       └── epsilon
+│   │               │                           └── Expression_Prime
+│   │               │                               └── epsilon
+│   │               ├── (SYMBOL, ;)
+│   │               └── Statements
+│   │                   └── epsilon
+│   └── Statements
+│       └── epsilon
+└── $

@@ -1,0 +1,520 @@
+Program
+├── Statements
+│   ├── Statement
+│   │   └── Simple_stmt
+│   │       └── Assignment_Call
+│   │           ├── (ID, a)
+│   │           └── B
+│   │               ├── (SYMBOL, =)
+│   │               └── C
+│   │                   ├── (SYMBOL, [)
+│   │                   ├── Expression
+│   │                   │   ├── Term
+│   │                   │   │   ├── Factor
+│   │                   │   │   │   ├── Atom
+│   │                   │   │   │   │   └── (NUM, 1)
+│   │                   │   │   │   └── Power
+│   │                   │   │   │       └── Primary
+│   │                   │   │   │           └── epsilon
+│   │                   │   │   └── Term_Prime
+│   │                   │   │       └── epsilon
+│   │                   │   └── Expression_Prime
+│   │                   │       └── epsilon
+│   │                   ├── List_Rest
+│   │                   │   ├── (SYMBOL, ,)
+│   │                   │   ├── Expression
+│   │                   │   │   ├── Term
+│   │                   │   │   │   ├── Factor
+│   │                   │   │   │   │   ├── Atom
+│   │                   │   │   │   │   │   └── (NUM, 2)
+│   │                   │   │   │   │   └── Power
+│   │                   │   │   │   │       └── Primary
+│   │                   │   │   │   │           └── epsilon
+│   │                   │   │   │   └── Term_Prime
+│   │                   │   │   │       └── epsilon
+│   │                   │   │   └── Expression_Prime
+│   │                   │   │       └── epsilon
+│   │                   │   └── List_Rest
+│   │                   │       ├── (SYMBOL, ,)
+│   │                   │       ├── Expression
+│   │                   │       │   ├── Term
+│   │                   │       │   │   ├── Factor
+│   │                   │       │   │   │   ├── Atom
+│   │                   │       │   │   │   │   └── (NUM, 3)
+│   │                   │       │   │   │   └── Power
+│   │                   │       │   │   │       └── Primary
+│   │                   │       │   │   │           └── epsilon
+│   │                   │       │   │   └── Term_Prime
+│   │                   │       │   │       └── epsilon
+│   │                   │       │   └── Expression_Prime
+│   │                   │       │       └── epsilon
+│   │                   │       └── List_Rest
+│   │                   │           ├── (SYMBOL, ,)
+│   │                   │           ├── Expression
+│   │                   │           │   ├── Term
+│   │                   │           │   │   ├── Factor
+│   │                   │           │   │   │   ├── Atom
+│   │                   │           │   │   │   │   └── (NUM, 4)
+│   │                   │           │   │   │   └── Power
+│   │                   │           │   │   │       └── Primary
+│   │                   │           │   │   │           └── epsilon
+│   │                   │           │   │   └── Term_Prime
+│   │                   │           │   │       └── epsilon
+│   │                   │           │   └── Expression_Prime
+│   │                   │           │       └── epsilon
+│   │                   │           └── List_Rest
+│   │                   │               ├── (SYMBOL, ,)
+│   │                   │               ├── Expression
+│   │                   │               │   ├── Term
+│   │                   │               │   │   ├── Factor
+│   │                   │               │   │   │   ├── Atom
+│   │                   │               │   │   │   │   └── (NUM, 5)
+│   │                   │               │   │   │   └── Power
+│   │                   │               │   │   │       └── Primary
+│   │                   │               │   │   │           └── epsilon
+│   │                   │               │   │   └── Term_Prime
+│   │                   │               │   │       └── epsilon
+│   │                   │               │   └── Expression_Prime
+│   │                   │               │       ├── (SYMBOL, +)
+│   │                   │               │       ├── Term
+│   │                   │               │       │   ├── Factor
+│   │                   │               │       │   │   ├── Atom
+│   │                   │               │       │   │   │   └── (NUM, 6)
+│   │                   │               │       │   │   └── Power
+│   │                   │               │       │   │       └── Primary
+│   │                   │               │       │   │           └── epsilon
+│   │                   │               │       │   └── Term_Prime
+│   │                   │               │       │       └── epsilon
+│   │                   │               │       └── Expression_Prime
+│   │                   │               │           ├── (SYMBOL, -)
+│   │                   │               │           ├── Term
+│   │                   │               │           │   ├── Factor
+│   │                   │               │           │   │   ├── Atom
+│   │                   │               │           │   │   │   └── (NUM, 3.5)
+│   │                   │               │           │   │   └── Power
+│   │                   │               │           │   │       └── Primary
+│   │                   │               │           │   │           └── epsilon
+│   │                   │               │           │   └── Term_Prime
+│   │                   │               │           │       └── epsilon
+│   │                   │               │           └── Expression_Prime
+│   │                   │               │               ├── (SYMBOL, +)
+│   │                   │               │               ├── Term
+│   │                   │               │               │   ├── Factor
+│   │                   │               │               │   │   ├── Atom
+│   │                   │               │               │   │   │   └── (NUM, 2)
+│   │                   │               │               │   │   └── Power
+│   │                   │               │               │   │       ├── (SYMBOL, **)
+│   │                   │               │               │   │       └── Factor
+│   │                   │               │               │   │           ├── Atom
+│   │                   │               │               │   │           │   └── (NUM, 2)
+│   │                   │               │               │   │           └── Power
+│   │                   │               │               │   │               └── Primary
+│   │                   │               │               │   │                   └── epsilon
+│   │                   │               │               │   └── Term_Prime
+│   │                   │               │               │       └── epsilon
+│   │                   │               │               └── Expression_Prime
+│   │                   │               │                   └── epsilon
+│   │                   │               └── List_Rest
+│   │                   │                   └── epsilon
+│   │                   └── (SYMBOL, ])
+│   ├── (SYMBOL, ;)
+│   └── Statements
+│       ├── Statement
+│       │   └── Simple_stmt
+│       │       └── Assignment_Call
+│       │           ├── (ID, b)
+│       │           └── B
+│       │               ├── (SYMBOL, =)
+│       │               └── C
+│       │                   └── Expression
+│       │                       ├── Term
+│       │                       │   ├── Factor
+│       │                       │   │   ├── Atom
+│       │                       │   │   │   └── (ID, a)
+│       │                       │   │   └── Power
+│       │                       │   │       └── Primary
+│       │                       │   │           ├── (SYMBOL, [)
+│       │                       │   │           ├── Expression
+│       │                       │   │           │   ├── Term
+│       │                       │   │           │   │   ├── Factor
+│       │                       │   │           │   │   │   ├── Atom
+│       │                       │   │           │   │   │   │   └── (NUM, 0)
+│       │                       │   │           │   │   │   └── Power
+│       │                       │   │           │   │   │       └── Primary
+│       │                       │   │           │   │   │           └── epsilon
+│       │                       │   │           │   │   └── Term_Prime
+│       │                       │   │           │   │       └── epsilon
+│       │                       │   │           │   └── Expression_Prime
+│       │                       │   │           │       └── epsilon
+│       │                       │   │           ├── (SYMBOL, ])
+│       │                       │   │           └── Primary
+│       │                       │   │               └── epsilon
+│       │                       │   └── Term_Prime
+│       │                       │       └── epsilon
+│       │                       └── Expression_Prime
+│       │                           ├── (SYMBOL, +)
+│       │                           ├── Term
+│       │                           │   ├── Factor
+│       │                           │   │   ├── Atom
+│       │                           │   │   │   └── (ID, a)
+│       │                           │   │   └── Power
+│       │                           │   │       └── Primary
+│       │                           │   │           ├── (SYMBOL, [)
+│       │                           │   │           ├── Expression
+│       │                           │   │           │   ├── Term
+│       │                           │   │           │   │   ├── Factor
+│       │                           │   │           │   │   │   ├── Atom
+│       │                           │   │           │   │   │   │   └── (NUM, 1)
+│       │                           │   │           │   │   │   └── Power
+│       │                           │   │           │   │   │       └── Primary
+│       │                           │   │           │   │   │           └── epsilon
+│       │                           │   │           │   │   └── Term_Prime
+│       │                           │   │           │   │       └── epsilon
+│       │                           │   │           │   └── Expression_Prime
+│       │                           │   │           │       └── epsilon
+│       │                           │   │           ├── (SYMBOL, ])
+│       │                           │   │           └── Primary
+│       │                           │   │               └── epsilon
+│       │                           │   └── Term_Prime
+│       │                           │       └── epsilon
+│       │                           └── Expression_Prime
+│       │                               ├── (SYMBOL, +)
+│       │                               ├── Term
+│       │                               │   ├── Factor
+│       │                               │   │   ├── Atom
+│       │                               │   │   │   └── (NUM, 2)
+│       │                               │   │   └── Power
+│       │                               │   │       └── Primary
+│       │                               │   │           └── epsilon
+│       │                               │   └── Term_Prime
+│       │                               │       └── epsilon
+│       │                               └── Expression_Prime
+│       │                                   └── epsilon
+│       ├── (SYMBOL, ;)
+│       └── Statements
+│           ├── Statement
+│           │   └── Simple_stmt
+│           │       └── Assignment_Call
+│           │           ├── (ID, c)
+│           │           └── B
+│           │               ├── (SYMBOL, =)
+│           │               └── C
+│           │                   └── Expression
+│           │                       ├── Term
+│           │                       │   ├── Factor
+│           │                       │   │   ├── Atom
+│           │                       │   │   │   └── (ID, b)
+│           │                       │   │   └── Power
+│           │                       │   │       ├── (SYMBOL, **)
+│           │                       │   │       └── Factor
+│           │                       │   │           ├── Atom
+│           │                       │   │           │   └── (NUM, 7)
+│           │                       │   │           └── Power
+│           │                       │   │               └── Primary
+│           │                       │   │                   └── epsilon
+│           │                       │   └── Term_Prime
+│           │                       │       └── epsilon
+│           │                       └── Expression_Prime
+│           │                           └── epsilon
+│           ├── (SYMBOL, ;)
+│           └── Statements
+│               ├── Statement
+│               │   └── Simple_stmt
+│               │       └── Assignment_Call
+│               │           ├── (ID, d)
+│               │           └── B
+│               │               ├── (SYMBOL, =)
+│               │               └── C
+│               │                   └── Expression
+│               │                       ├── Term
+│               │                       │   ├── Factor
+│               │                       │   │   ├── Atom
+│               │                       │   │   │   └── (ID, c)
+│               │                       │   │   └── Power
+│               │                       │   │       └── Primary
+│               │                       │   │           └── epsilon
+│               │                       │   └── Term_Prime
+│               │                       │       ├── (SYMBOL, *)
+│               │                       │       ├── Factor
+│               │                       │       │   ├── Atom
+│               │                       │       │   │   └── (ID, a)
+│               │                       │       │   └── Power
+│               │                       │       │       └── Primary
+│               │                       │       │           ├── (SYMBOL, [)
+│               │                       │       │           ├── Expression
+│               │                       │       │           │   ├── Term
+│               │                       │       │           │   │   ├── Factor
+│               │                       │       │           │   │   │   ├── Atom
+│               │                       │       │           │   │   │   │   └── (NUM, 1)
+│               │                       │       │           │   │   │   └── Power
+│               │                       │       │           │   │   │       └── Primary
+│               │                       │       │           │   │   │           └── epsilon
+│               │                       │       │           │   │   └── Term_Prime
+│               │                       │       │           │   │       └── epsilon
+│               │                       │       │           │   └── Expression_Prime
+│               │                       │       │           │       └── epsilon
+│               │                       │       │           ├── (SYMBOL, ])
+│               │                       │       │           └── Primary
+│               │                       │       │               └── epsilon
+│               │                       │       └── Term_Prime
+│               │                       │           └── epsilon
+│               │                       └── Expression_Prime
+│               │                           └── epsilon
+│               ├── (SYMBOL, ;)
+│               └── Statements
+│                   ├── Statement
+│                   │   └── Simple_stmt
+│                   │       └── Assignment_Call
+│                   │           ├── (ID, e)
+│                   │           └── B
+│                   │               ├── (SYMBOL, =)
+│                   │               └── C
+│                   │                   └── Expression
+│                   │                       ├── Term
+│                   │                       │   ├── Factor
+│                   │                       │   │   ├── Atom
+│                   │                       │   │   │   └── (ID, d)
+│                   │                       │   │   └── Power
+│                   │                       │   │       └── Primary
+│                   │                       │   │           └── epsilon
+│                   │                       │   └── Term_Prime
+│                   │                       │       └── epsilon
+│                   │                       └── Expression_Prime
+│                   │                           ├── (SYMBOL, +)
+│                   │                           ├── Term
+│                   │                           │   ├── Factor
+│                   │                           │   │   ├── Atom
+│                   │                           │   │   │   └── (ID, a)
+│                   │                           │   │   └── Power
+│                   │                           │   │       └── Primary
+│                   │                           │   │           ├── (SYMBOL, [)
+│                   │                           │   │           ├── Expression
+│                   │                           │   │           │   ├── Term
+│                   │                           │   │           │   │   ├── Factor
+│                   │                           │   │           │   │   │   ├── Atom
+│                   │                           │   │           │   │   │   │   └── (NUM, 2)
+│                   │                           │   │           │   │   │   └── Power
+│                   │                           │   │           │   │   │       └── Primary
+│                   │                           │   │           │   │   │           └── epsilon
+│                   │                           │   │           │   │   └── Term_Prime
+│                   │                           │   │           │   │       └── epsilon
+│                   │                           │   │           │   └── Expression_Prime
+│                   │                           │   │           │       ├── (SYMBOL, +)
+│                   │                           │   │           │       ├── Term
+│                   │                           │   │           │       │   ├── Factor
+│                   │                           │   │           │       │   │   ├── Atom
+│                   │                           │   │           │       │   │   │   └── (NUM, 1)
+│                   │                           │   │           │       │   │   └── Power
+│                   │                           │   │           │       │   │       └── Primary
+│                   │                           │   │           │       │   │           └── epsilon
+│                   │                           │   │           │       │   └── Term_Prime
+│                   │                           │   │           │       │       ├── (SYMBOL, *)
+│                   │                           │   │           │       │       ├── Factor
+│                   │                           │   │           │       │       │   ├── Atom
+│                   │                           │   │           │       │       │   │   └── (NUM, 2)
+│                   │                           │   │           │       │       │   └── Power
+│                   │                           │   │           │       │       │       └── Primary
+│                   │                           │   │           │       │       │           └── epsilon
+│                   │                           │   │           │       │       └── Term_Prime
+│                   │                           │   │           │       │           ├── (SYMBOL, *)
+│                   │                           │   │           │       │           ├── Factor
+│                   │                           │   │           │       │           │   ├── Atom
+│                   │                           │   │           │       │           │   │   └── (ID, a)
+│                   │                           │   │           │       │           │   └── Power
+│                   │                           │   │           │       │           │       └── Primary
+│                   │                           │   │           │       │           │           ├── (SYMBOL, [)
+│                   │                           │   │           │       │           │           ├── Expression
+│                   │                           │   │           │       │           │           │   ├── Term
+│                   │                           │   │           │       │           │           │   │   ├── Factor
+│                   │                           │   │           │       │           │           │   │   │   ├── Atom
+│                   │                           │   │           │       │           │           │   │   │   │   └── (NUM, 1)
+│                   │                           │   │           │       │           │           │   │   │   └── Power
+│                   │                           │   │           │       │           │           │   │   │       └── Primary
+│                   │                           │   │           │       │           │           │   │   │           └── epsilon
+│                   │                           │   │           │       │           │           │   │   └── Term_Prime
+│                   │                           │   │           │       │           │           │   │       └── epsilon
+│                   │                           │   │           │       │           │           │   └── Expression_Prime
+│                   │                           │   │           │       │           │           │       └── epsilon
+│                   │                           │   │           │       │           │           ├── (SYMBOL, ])
+│                   │                           │   │           │       │           │           └── Primary
+│                   │                           │   │           │       │           │               └── epsilon
+│                   │                           │   │           │       │           └── Term_Prime
+│                   │                           │   │           │       │               └── epsilon
+│                   │                           │   │           │       └── Expression_Prime
+│                   │                           │   │           │           └── epsilon
+│                   │                           │   │           ├── (SYMBOL, ])
+│                   │                           │   │           └── Primary
+│                   │                           │   │               └── epsilon
+│                   │                           │   └── Term_Prime
+│                   │                           │       └── epsilon
+│                   │                           └── Expression_Prime
+│                   │                               ├── (SYMBOL, -)
+│                   │                               ├── Term
+│                   │                               │   ├── Factor
+│                   │                               │   │   ├── Atom
+│                   │                               │   │   │   └── (NUM, 12)
+│                   │                               │   │   └── Power
+│                   │                               │   │       └── Primary
+│                   │                               │   │           └── epsilon
+│                   │                               │   └── Term_Prime
+│                   │                               │       └── epsilon
+│                   │                               └── Expression_Prime
+│                   │                                   └── epsilon
+│                   ├── (SYMBOL, ;)
+│                   └── Statements
+│                       ├── Statement
+│                       │   └── Simple_stmt
+│                       │       └── Assignment_Call
+│                       │           ├── (ID, a)
+│                       │           └── B
+│                       │               ├── (SYMBOL, [)
+│                       │               ├── Expression
+│                       │               │   ├── Term
+│                       │               │   │   ├── Factor
+│                       │               │   │   │   ├── Atom
+│                       │               │   │   │   │   └── (NUM, 0)
+│                       │               │   │   │   └── Power
+│                       │               │   │   │       └── Primary
+│                       │               │   │   │           └── epsilon
+│                       │               │   │   └── Term_Prime
+│                       │               │   │       └── epsilon
+│                       │               │   └── Expression_Prime
+│                       │               │       └── epsilon
+│                       │               ├── (SYMBOL, ])
+│                       │               ├── (SYMBOL, =)
+│                       │               └── C
+│                       │                   └── Expression
+│                       │                       ├── Term
+│                       │                       │   ├── Factor
+│                       │                       │   │   ├── Atom
+│                       │                       │   │   │   └── (ID, a)
+│                       │                       │   │   └── Power
+│                       │                       │   │       └── Primary
+│                       │                       │   │           ├── (SYMBOL, [)
+│                       │                       │   │           ├── Expression
+│                       │                       │   │           │   ├── Term
+│                       │                       │   │           │   │   ├── Factor
+│                       │                       │   │           │   │   │   ├── Atom
+│                       │                       │   │           │   │   │   │   └── (NUM, 1)
+│                       │                       │   │           │   │   │   └── Power
+│                       │                       │   │           │   │   │       └── Primary
+│                       │                       │   │           │   │   │           └── epsilon
+│                       │                       │   │           │   │   └── Term_Prime
+│                       │                       │   │           │   │       └── epsilon
+│                       │                       │   │           │   └── Expression_Prime
+│                       │                       │   │           │       └── epsilon
+│                       │                       │   │           ├── (SYMBOL, ])
+│                       │                       │   │           └── Primary
+│                       │                       │   │               └── epsilon
+│                       │                       │   └── Term_Prime
+│                       │                       │       └── epsilon
+│                       │                       └── Expression_Prime
+│                       │                           ├── (SYMBOL, -)
+│                       │                           ├── Term
+│                       │                           │   ├── Factor
+│                       │                           │   │   ├── Atom
+│                       │                           │   │   │   └── (ID, a)
+│                       │                           │   │   └── Power
+│                       │                           │   │       └── Primary
+│                       │                           │   │           ├── (SYMBOL, [)
+│                       │                           │   │           ├── Expression
+│                       │                           │   │           │   ├── Term
+│                       │                           │   │           │   │   ├── Factor
+│                       │                           │   │           │   │   │   ├── Atom
+│                       │                           │   │           │   │   │   │   └── (NUM, 2)
+│                       │                           │   │           │   │   │   └── Power
+│                       │                           │   │           │   │   │       └── Primary
+│                       │                           │   │           │   │   │           └── epsilon
+│                       │                           │   │           │   │   └── Term_Prime
+│                       │                           │   │           │   │       └── epsilon
+│                       │                           │   │           │   └── Expression_Prime
+│                       │                           │   │           │       └── epsilon
+│                       │                           │   │           ├── (SYMBOL, ])
+│                       │                           │   │           └── Primary
+│                       │                           │   │               └── epsilon
+│                       │                           │   └── Term_Prime
+│                       │                           │       └── epsilon
+│                       │                           └── Expression_Prime
+│                       │                               └── epsilon
+│                       ├── (SYMBOL, ;)
+│                       └── Statements
+│                           ├── Statement
+│                           │   └── Simple_stmt
+│                           │       └── Assignment_Call
+│                           │           ├── (ID, a)
+│                           │           └── B
+│                           │               ├── (SYMBOL, [)
+│                           │               ├── Expression
+│                           │               │   ├── Term
+│                           │               │   │   ├── Factor
+│                           │               │   │   │   ├── Atom
+│                           │               │   │   │   │   └── (NUM, 1)
+│                           │               │   │   │   └── Power
+│                           │               │   │   │       └── Primary
+│                           │               │   │   │           └── epsilon
+│                           │               │   │   └── Term_Prime
+│                           │               │   │       └── epsilon
+│                           │               │   └── Expression_Prime
+│                           │               │       └── epsilon
+│                           │               ├── (SYMBOL, ])
+│                           │               ├── (SYMBOL, =)
+│                           │               └── C
+│                           │                   ├── (SYMBOL, [)
+│                           │                   ├── Expression
+│                           │                   │   ├── Term
+│                           │                   │   │   ├── Factor
+│                           │                   │   │   │   ├── Atom
+│                           │                   │   │   │   │   └── (NUM, 2)
+│                           │                   │   │   │   └── Power
+│                           │                   │   │   │       └── Primary
+│                           │                   │   │   │           └── epsilon
+│                           │                   │   │   └── Term_Prime
+│                           │                   │   │       └── epsilon
+│                           │                   │   └── Expression_Prime
+│                           │                   │       └── epsilon
+│                           │                   ├── List_Rest
+│                           │                   │   ├── (SYMBOL, ,)
+│                           │                   │   ├── Expression
+│                           │                   │   │   ├── Term
+│                           │                   │   │   │   ├── Factor
+│                           │                   │   │   │   │   ├── Atom
+│                           │                   │   │   │   │   │   └── (NUM, 3)
+│                           │                   │   │   │   │   └── Power
+│                           │                   │   │   │   │       └── Primary
+│                           │                   │   │   │   │           └── epsilon
+│                           │                   │   │   │   └── Term_Prime
+│                           │                   │   │   │       └── epsilon
+│                           │                   │   │   └── Expression_Prime
+│                           │                   │   │       └── epsilon
+│                           │                   │   └── List_Rest
+│                           │                   │       ├── (SYMBOL, ,)
+│                           │                   │       ├── Expression
+│                           │                   │       │   ├── Term
+│                           │                   │       │   │   ├── Factor
+│                           │                   │       │   │   │   ├── Atom
+│                           │                   │       │   │   │   │   └── (ID, c)
+│                           │                   │       │   │   │   └── Power
+│                           │                   │       │   │   │       └── Primary
+│                           │                   │       │   │   │           └── epsilon
+│                           │                   │       │   │   └── Term_Prime
+│                           │                   │       │   │       └── epsilon
+│                           │                   │       │   └── Expression_Prime
+│                           │                   │       │       ├── (SYMBOL, +)
+│                           │                   │       │       ├── Term
+│                           │                   │       │       │   ├── Factor
+│                           │                   │       │       │   │   ├── Atom
+│                           │                   │       │       │   │   │   └── (ID, d)
+│                           │                   │       │       │   │   └── Power
+│                           │                   │       │       │   │       └── Primary
+│                           │                   │       │       │   │           └── epsilon
+│                           │                   │       │       │   └── Term_Prime
+│                           │                   │       │       │       └── epsilon
+│                           │                   │       │       └── Expression_Prime
+│                           │                   │       │           └── epsilon
+│                           │                   │       └── List_Rest
+│                           │                   │           └── epsilon
+│                           │                   └── (SYMBOL, ])
+│                           ├── (SYMBOL, ;)
+│                           └── Statements
+│                               └── epsilon
+└── $

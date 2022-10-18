@@ -1,0 +1,56 @@
+Program -> Statements
+Statements -> Statement ; Statements
+Statements -> EPSILON
+Statement -> Compound_stmt
+Statement -> Simple_stmt
+Simple_stmt -> Assignment_Call
+Simple_stmt -> Return_stmt
+Simple_stmt -> Global_stmt
+Simple_stmt -> break
+Simple_stmt -> continue
+Compound_stmt -> Function_def
+Compound_stmt -> If_stmt
+Compound_stmt -> Iteration_stmt
+Assignment_Call -> ID B
+B -> = C
+B -> [ Expression ] = C
+B -> ( Arguments )
+C -> Expression
+C -> [ Expression List_Rest ]
+List_Rest -> , Expression List_Rest
+List_Rest -> EPSILON
+Return_stmt -> return Return_Value
+Return_Value -> Expression
+Return_Value -> EPSILON
+Global_stmt -> global ID
+Function_def -> def ID ( Params ) : Statements
+Params -> ID Params_Prime
+Params -> EPSILON
+Params_Prime -> , ID Params_Prime
+Params_Prime -> EPSILON
+If_stmt -> if Relational_Expression : Statements Else_block
+Else_block -> else : Statements
+Else_block -> EPSILON
+Iteration_stmt -> while ( Relational_Expression ) Statements
+Relational_Expression -> Expression Relop Expression
+Relop -> ==
+Relop -> <
+Expression -> Term Expression_Prime
+Expression_Prime -> + Term Expression_Prime
+Expression_Prime -> - Term Expression_Prime
+Expression_Prime -> EPSILON
+Term -> Factor Term_Prime
+Term_Prime -> * Factor Term_Prime
+Term_Prime -> EPSILON
+Factor -> Atom Power
+Power -> ** Factor
+Power -> Primary
+Primary -> [ Expression ] Primary
+Primary -> ( Arguments ) Primary
+Primary -> EPSILON
+Arguments -> Expression Arguments_Prime
+Arguments -> EPSILON
+Arguments_Prime -> , Expression Arguments_Prime
+Arguments_Prime -> EPSILON
+Atom -> ID
+Atom -> NUM

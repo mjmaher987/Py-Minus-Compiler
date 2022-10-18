@@ -1,0 +1,18 @@
+# test case 5
+
+def main():
+    a = 10;
+    if a<10:
+        b = 0;
+        output(b);
+    else:
+        b = 1;
+        output(b);
+        if a<20:
+            c = 0;
+            output(c);
+        else:
+            c = 1;
+        ;
+    ;
+;

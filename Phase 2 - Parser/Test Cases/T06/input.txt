@@ -1,0 +1,23 @@
+# test case 6
+
+# returns a % b
+def remainder(a, b):
+    if a<b:
+       return a;
+    else:
+       return remainder(a-b, b);
+    ;
+;
+
+def isPrime(a):
+    b = a;
+    while(1<b)
+       if remainder(a, b)==0:
+           return 0;
+       ;
+       b = b - 1;
+    ;
+    return 1;
+;
+
+output(isPrime(31));

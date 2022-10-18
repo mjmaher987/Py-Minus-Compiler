@@ -1,0 +1,7 @@
+#4 : syntax error, missing :
+#5 : syntax error, illegal ID
+#5 : syntax error, illegal =
+#5 : syntax error, illegal NUM
+#6 : syntax error, illegal return
+#6 : syntax error, illegal ID
+#7 : syntax error, missing ;

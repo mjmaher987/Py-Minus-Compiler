@@ -1,0 +1,16 @@
+# test case 9
+
+def f(a):
+    if a<10:
+        return 1;
+    else:
+        return 0;
+    ;
+;
+
+
+a=2;
+b;
+a = f(a,);
+c = 2**;
+d = +

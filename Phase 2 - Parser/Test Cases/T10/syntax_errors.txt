@@ -1,0 +1,6 @@
+#5 : syntax error, missing (
+#5 : syntax error, illegal :
+#6 : syntax error, missing Relop
+#6 : syntax error, illegal =
+#6 : syntax error, illegal ID
+#6 : syntax error, missing )

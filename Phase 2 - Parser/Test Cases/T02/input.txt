@@ -1,0 +1,25 @@
+# test case 2
+
+def main():
+    a = 0;
+    b = 10;
+    while (a<7)
+        a = a + 1;
+        b = b - 1;
+    ;
+    return b;
+    ;
+
+def isTwo(a):
+    if a == 2:
+      return 1;
+    else:
+      return 0;
+    ;
+    ;
+
+l = [1, 2, 3, 4];
+a = isTwo(main());
+b = isTwo(l[1]);
+output(a);
+output(b);
