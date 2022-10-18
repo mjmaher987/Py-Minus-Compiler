@@ -1,0 +1,16 @@
+1.	break
+2.	continue
+3.	def
+4.	else
+5.	if
+6.	return
+7.	while
+8.	juju
+9.	x
+10.	y
+11.	greater
+12.	num1
+13.	num2
+14.	print
+15.	The
+16.	JUJU

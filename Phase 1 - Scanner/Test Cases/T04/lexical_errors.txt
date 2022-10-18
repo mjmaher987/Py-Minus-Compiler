@@ -1,0 +1,3 @@
+2.	(*/, Unmatched comment)
+11.	(/, Invalid input)
+13.	(/*def main..., Unclosed comment)

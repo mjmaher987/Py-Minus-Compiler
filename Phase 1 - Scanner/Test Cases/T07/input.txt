@@ -1,0 +1,33 @@
+b = 0;
+def foo(d, e):
+	def foo2(k[]):
+		return k[0] + k[1];
+		int fff[2];
+	fff[0] = d;
+	fff[1] = d + 1;
+	f = foo2(fff);
+	b = e + f;
+	while 2s#:
+		f = f + d;
+		d = d - 1;
+		if (d == )
+			break;
+		else: d = 1;
+	//co#mment1
+	return f + b;
+
+arr[3];
+
+def main():
+	int a;
+	a = -3 + +11;
+	b = 5 * a + foo(a, a);
+	arr[1] = b + -3;
+	arr[2] = foo(arr[0];, arr[1])
+	if b /*comment2*/ == 3:
+		arr[0] = -7;
+		
+def foo(d, e):
+	int a;
+   	a = 5;
+    	if a == 5): break; else: a = a + 1;

@@ -1,0 +1,7 @@
+7.	(3d, Invalid number)
+9.	(cd!, Invalid input)
+10.	(*/, Unmatched comment)
+11.	(/, Invalid input)
+12.	(*$, Invalid input)
+13.	(@, Invalid input) (/, Invalid input)
+14.	(/* comment..., Unclosed comment)

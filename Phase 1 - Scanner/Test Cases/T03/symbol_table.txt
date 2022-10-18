@@ -1,0 +1,17 @@
+1.	break
+2.	continue
+3.	def
+4.	else
+5.	if
+6.	return
+7.	while
+8.	min
+9.	arr
+10.	g
+11.	killed
+12.	me
+13.	killer
+14.	you
+15.	b
+16.	x
+17.	u

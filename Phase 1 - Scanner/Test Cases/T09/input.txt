@@ -1,0 +1,26 @@
+def f(n) :
+
+return n * n * n;
+
+
+def main():
+a; b; c;
+num; cha; t;
+ans;
+a = 98;
+b = 2;
+c = 6;
+num = 1;
+cha = 1;
+t = 0;
+
+while num < a:
+	t = t + 1;
+	num = num + cha;
+	if (t < 5):
+		cha = cha * b;
+	else:
+		cha = cha + c;
+
+ans = f(t);
+break;

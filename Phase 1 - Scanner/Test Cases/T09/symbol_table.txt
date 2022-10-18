@@ -1,0 +1,17 @@
+1.	break
+2.	continue
+3.	def
+4.	else
+5.	if
+6.	return
+7.	while
+8.	f
+9.	n
+10.	main
+11.	a
+12.	b
+13.	c
+14.	num
+15.	cha
+16.	t
+17.	ans

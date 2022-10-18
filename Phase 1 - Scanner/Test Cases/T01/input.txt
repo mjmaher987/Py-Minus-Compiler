@@ -1,0 +1,14 @@
+def main () :
+    a = 0**2;
+    # comment1
+    a = 2 + 2.5;
+    a = a - 3;
+    cde = a;
+    if (b /* comment2 */ == 3d) :
+        a = 3;
+        cd!e = 7;
+    else */
+    : 25/
+        b = a < cde; *$
+        cde = @2; if/
+    return; /* comment 3

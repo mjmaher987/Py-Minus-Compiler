@@ -1,0 +1,15 @@
+1.	break
+2.	continue
+3.	def
+4.	else
+5.	if
+6.	return
+7.	while
+8.	f
+9.	int
+10.	a
+11.	g
+12.	b
+13.	output
+14.	h
+15.	mia

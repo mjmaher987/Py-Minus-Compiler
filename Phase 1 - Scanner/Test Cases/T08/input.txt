@@ -1,0 +1,22 @@
+# Afarin, 100 Afarin, 1300 Afarin
+
+def compute_juju(x, y):
+
+   # choose the greater number
+   if x > y:
+       greater = x;
+   else:
+       greater = y;
+
+   while(1):
+       if (greater % x == 0):
+           juju = greater;
+           break;
+       greater += 1;
+
+   return juju
+
+num1 = 54;
+num2 = 24;
+
+print("The JUJU is", compute_juju(num1, num2));

@@ -1,0 +1,15 @@
+def f(*a):
+    def g(int b) :*/
+        output(b);
+        f(b - 1);
+    if a == 1 :
+        output(a);
+        return 0;
+    else :
+        g(a);
+
+/
+
+/*def main() {
+    f(10);
+}

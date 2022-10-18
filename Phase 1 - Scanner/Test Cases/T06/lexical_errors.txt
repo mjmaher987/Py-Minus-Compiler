@@ -1,0 +1,2 @@
+6.	(=$, Invalid input)
+21.	(void$, Invalid input)

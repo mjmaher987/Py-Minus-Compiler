@@ -1,0 +1,4 @@
+4.	(1g, Invalid number)
+6.	(hell$, Invalid input) (ooo&, Invalid input)
+7.	(!, Invalid input)
+12.	(mama_, Invalid input)

@@ -1,0 +1,13 @@
+def f(int a) :
+    def g(int b) :
+        output(b);
+        f(b - 1gh);
+    if a == 1 :
+        hell$ooo&(a);
+        !return 0;
+    else:
+        g(a);
+
+
+def mama_mia():
+    f(10 * 9 ** 8 *** 7);

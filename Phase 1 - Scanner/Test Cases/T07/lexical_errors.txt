@@ -1,0 +1,2 @@
+10.	(2s, Invalid number)
+16.	(/, Invalid input) (/, Invalid input)
