@@ -5,8 +5,10 @@ Mohammad Javad Maheronnaghsh
 
 ##############################
 
-This repository consists of practical homeworks of Data Structure and Algorithms course.
+This repository consists of practical homeworks (project) of Compiler Design course.
 
-Instructor: Dr. Masoud Seddighin
+In this project, out group has created a Pi-minus compiler.
+
+Instructor: Dr. Gholamreza Ghassemsani
 
 ##############################
