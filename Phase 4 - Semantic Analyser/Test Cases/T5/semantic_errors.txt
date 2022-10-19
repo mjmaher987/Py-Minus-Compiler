@@ -1,0 +1,11 @@
+#17 : Semantic Error! 'k' is not defined appropriately.
+#21 : Semantic Error! No 'while' found for 'continue'.
+#22 : Semantic Error! Mismatch in numbers of arguments of 'f'.
+#30 : Semantic Error! Function 'g' has already been defined with this number of arguments.
+#31 : Semantic Error! 'x' is not defined appropriately.
+#35 : Semantic Error! Void type in operands.
+#39 : Semantic Error! 'lower' is not defined appropriately.
+#42 : Semantic Error! 'upper' is not defined appropriately.
+#47 : Semantic Error! Void type in operands.
+#59 : Semantic Error! 'temp2' is not defined appropriately.
+#61 : Semantic Error! main function not found.

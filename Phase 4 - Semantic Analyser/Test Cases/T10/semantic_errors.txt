@@ -1,0 +1,5 @@
+#16 : Semantic Error! Function 'pr' has already been defined with this number of arguments.
+#32 : Semantic Error! Void type in operands.
+#32 : Semantic Error! 'a' is not defined appropriately.
+#33 : Semantic Error! Mismatch in numbers of arguments of 'pr'.
+#33 : Semantic Error! Void type in operands.

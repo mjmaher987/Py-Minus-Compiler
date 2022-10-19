@@ -1,0 +1,28 @@
+# ===== Sample 3 =====
+
+
+def remainder(t1, t2):
+    while(0<t1)
+        if t1<t2:
+            return t1;
+        ;
+        t1 = t1 - t2;
+	foo(0);
+    ;
+    return 0;
+
+;
+
+def foo(x):
+	if x < 0:
+		output(x - 2);
+	else:
+		output(x + 4);
+	;
+;
+
+def main():
+    k = remainder(1,5,3);
+    j = c + remainder(3);
+    d = foo() + k;    
+;

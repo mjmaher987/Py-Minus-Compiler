@@ -1,0 +1,20 @@
+# ==== Sample 1 =====
+arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+def main():
+     var1 = 0;
+     arr[0] = 10;
+     arr[2] = 100;
+     arr[6] = var1;
+     arr[9] = var2;
+
+     if remainder(num, temp) == 0 :
+	result = 0;
+	break;
+	;
+
+     output(arr[var1]);
+     output(1234);  
+     i = foo(arr[1]);                                                                                     
+     output(arr[arr[arr[arr[0] - 1] + 1] - 1]);
+;

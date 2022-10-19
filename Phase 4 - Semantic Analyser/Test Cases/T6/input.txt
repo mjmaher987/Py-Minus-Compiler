@@ -1,0 +1,40 @@
+def add(a, b):
+	c = a + b;
+	return c;
+;
+
+def add(c, a):
+	d = c;
+	result = d + a;
+	return result;
+;
+
+def add(a, b, c):
+	mid = a + b;
+	res = mid + c;
+	return res;
+;
+
+def f(a):
+	x = a ** a;
+	res = b * x;
+	output(res);
+;
+
+def main():
+	x = 2;
+	y = 6;
+	a = add(x, y) - f(x);
+	while (x < 5)
+		while (y < 9)
+			if x == 3:
+				break;
+			else:
+				y = y + 1;
+			;
+		;
+		x = x + 1;
+	;
+	continue;
+	add(a, x, c);
+;

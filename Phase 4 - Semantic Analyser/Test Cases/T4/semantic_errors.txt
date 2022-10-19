@@ -1,0 +1,4 @@
+#20 : Semantic Error! Function 'foo' has already been defined with this number of arguments.
+#25 : Semantic Error! 'k' is not defined appropriately.
+#33 : Semantic Error! No 'while' found for 'break'.
+#34 : Semantic Error! 'j' is not defined appropriately.

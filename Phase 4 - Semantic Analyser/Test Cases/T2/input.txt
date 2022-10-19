@@ -1,0 +1,28 @@
+# ===== Sample 2 =====
+
+def foo(x):
+	if x < 0:
+		output(x);
+		continue;
+		output(fi(3));
+		return 1;
+	else:
+		break;
+		return x + 2;
+	;
+;
+
+def fi(x):
+	if x < 0:
+		output(x - 8);
+	else:
+		output(x + 8);
+	;
+;
+
+def main2():	
+	i = foo(0);
+	output(i);
+	i = foo(10) + fi(4);
+	output(i);
+;

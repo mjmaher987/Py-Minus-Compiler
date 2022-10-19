@@ -1,0 +1,8 @@
+#6 : Semantic Error! 'j' is not defined appropriately.
+#21 : Semantic Error! 'y' is not defined appropriately.
+#28 : Semantic Error! Mismatch in numbers of arguments of 'prod'.
+#47 : Semantic Error! Mismatch in numbers of arguments of 'h'.
+#47 : Semantic Error! Void type in operands.
+#53 : Semantic Error! No 'while' found for 'break'.
+#57 : Semantic Error! 'a' is not defined appropriately.
+#59 : Semantic Error! main function not found.

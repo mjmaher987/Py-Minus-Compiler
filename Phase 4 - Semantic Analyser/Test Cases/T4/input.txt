@@ -1,0 +1,35 @@
+# ===== Sample 4 =====
+
+def foo(x):
+	if x < 0:
+		return x + 1;
+	else:
+		return x + 2;
+	;
+;
+
+def foo(x, y):
+	k = 4;
+	if x < 0:
+		return x + y;
+	else:
+		return x - y;
+	;
+;
+
+def foo(d):
+	j = 7;
+	if d < 0:
+		return d - 1;
+	else:
+		return d - k;
+	;
+;
+
+def main():	
+	i = foo(0);
+	output(i);
+	i = foo(10) + foo(4, 5);
+	break;
+	output(j);
+;

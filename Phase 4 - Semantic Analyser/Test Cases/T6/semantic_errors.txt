@@ -1,0 +1,5 @@
+#6 : Semantic Error! Function 'add' has already been defined with this number of arguments.
+#20 : Semantic Error! 'b' is not defined appropriately.
+#27 : Semantic Error! Void type in operands.
+#38 : Semantic Error! No 'while' found for 'continue'.
+#39 : Semantic Error! 'c' is not defined appropriately.

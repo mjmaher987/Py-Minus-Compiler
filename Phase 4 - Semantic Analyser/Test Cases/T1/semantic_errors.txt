@@ -1,0 +1,6 @@
+#9 : Semantic Error! 'var2' is not defined appropriately.
+#11 : Semantic Error! 'remainder' is not defined appropriately.
+#11 : Semantic Error! 'num' is not defined appropriately.
+#11 : Semantic Error! 'temp' is not defined appropriately.
+#13 : Semantic Error! No 'while' found for 'break'.
+#18 : Semantic Error! 'foo' is not defined appropriately.

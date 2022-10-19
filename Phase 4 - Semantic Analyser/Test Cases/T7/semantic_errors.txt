@@ -1,0 +1,8 @@
+#9 : Semantic Error! No 'while' found for 'break'.
+#12 : Semantic Error! 'f' is not defined appropriately.
+#17 : Semantic Error! 'num' is not defined appropriately.
+#22 : Semantic Error! No 'while' found for 'continue'.
+#31 : Semantic Error! Mismatch in numbers of arguments of 'fact'.
+#34 : Semantic Error! 'j' is not defined appropriately.
+#34 : Semantic Error! Void type in operands.
+#35 : Semantic Error! main function not found.

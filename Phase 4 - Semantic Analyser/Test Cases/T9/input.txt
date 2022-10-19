@@ -1,0 +1,59 @@
+def prod(a, size):
+    i = 0;
+    p = 1;
+    while (i < size)
+        p = p * a[i];
+        i = j + 2;
+        if size < i:
+            break;
+        ;
+    ;
+    return p;
+;
+
+def prod():
+    output(2);
+;
+
+def h():
+    x = 2;
+    while(x < 20)
+        if x < y:
+            output(x);
+        ;
+        x = x + 1;
+    ;
+    a = [1, 2, 3, 4];
+    output(prod(a, 4) + 2);
+    prod(a);
+;
+
+def sum(a, size):
+    i = 0;
+    s = 0;
+    while(i < size)
+        s = s + a[i];
+        if i == 2:
+            j = 0;
+            count = 0;
+            while(j < size)
+                j = j + 1;
+                count = count + 1;
+            ;
+            if j < 10:
+                output(count);
+            else:
+                continue;
+                while(i < h(6))
+                    break;
+                ;
+            ;
+        ;
+    ;
+    break;
+;
+
+def g():
+    x  = a[2];
+    output(x);
+;

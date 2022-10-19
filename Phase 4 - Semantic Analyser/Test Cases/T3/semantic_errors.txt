@@ -1,0 +1,6 @@
+#10 : Semantic Error! 'foo' is not defined appropriately.
+#25 : Semantic Error! Mismatch in numbers of arguments of 'remainder'.
+#26 : Semantic Error! 'c' is not defined appropriately.
+#26 : Semantic Error! Mismatch in numbers of arguments of 'remainder'.
+#27 : Semantic Error! Mismatch in numbers of arguments of 'foo'.
+#27 : Semantic Error! Void type in operands.

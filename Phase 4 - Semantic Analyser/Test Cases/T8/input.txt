@@ -1,0 +1,56 @@
+def pow(num):
+    i = 0;
+    result = 1;
+    x = num + 1;
+    while (i < x)
+        result = result * 2;
+        while(0 < i)
+            if 0 < i:
+                break;
+            ;
+        ;
+        continue;
+    ;
+    return result;
+;
+
+def pow(num1, num2):
+    result = num1 ** num2;
+    output(result);
+;
+
+def g(num):
+    i = 0;
+    while (i < num)
+        if i == 4:
+            result = pow(i) + 3;
+        else:
+            result = pow(2, i) + 2;
+        ;
+        i = i + 1;
+    ;
+;
+
+def pow(num1, num2):
+    result = num1 ** num2;
+    return result;
+;
+
+def main():
+    x = 3;
+    y = 4;
+    m = 1;
+    z = pow(x, y) * m;
+    g();
+    while(x == 3)
+        y = y + 1;
+        if y == 7:
+            x = 4;
+        ;
+    ;
+    break;
+    m = pow(m) + x;
+    if g(m) == 2:
+        output(m);
+    ;
+;

@@ -1,0 +1,6 @@
+#28 : Semantic Error! Void type in operands.
+#34 : Semantic Error! Function 'pow' has already been defined with this number of arguments.
+#43 : Semantic Error! Void type in operands.
+#44 : Semantic Error! Mismatch in numbers of arguments of 'g'.
+#51 : Semantic Error! No 'while' found for 'break'.
+#53 : Semantic Error! Void type in operands.

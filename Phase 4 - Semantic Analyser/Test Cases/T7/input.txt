@@ -1,0 +1,35 @@
+def fact(num):
+	index = 0;
+	result = 1;
+	while (index < num)
+		next = index + 1;
+		result = result * index;
+		index = next;
+	;
+	break;
+	output(result);
+	if (num < 2):
+		x = f(2);
+	;
+;
+
+def g():
+	fact(num);
+	x = 4;
+	while (x < 20)
+		x = x + 2;
+	;
+	continue;
+	i = 3;
+	x = 4;
+	while (x == 4)
+		i = i + 1;
+		if i == 30:
+			break;
+		else:
+			x = 4;
+			fact(x, i);
+		;
+	;
+	output(fact(j) + 4);
+;

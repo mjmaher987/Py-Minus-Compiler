@@ -1,0 +1,60 @@
+# ==== Sample 5 =====
+
+def remainder(t1, t2):
+    k = 3;
+    while(0<t1)
+        if t1<t2:
+            return t1;
+        ;
+	break;
+        t1 = t1 - t2;
+    ;
+    return 0;
+
+;
+
+def f(t1, t2):
+    j = 4 + k;
+    if t1<0:
+    	return 0;
+    ;
+    continue;
+    return f(t1);
+
+;
+
+def g(x):
+    output(x);
+;
+
+def g(y):
+    output(x - 2);
+;
+
+def f(t1):
+    return t1 + g(3);
+;
+
+def main2():
+	num = lower;
+	temp = 2;
+	result = 1;
+	while(num<upper+1)
+		result = 1;
+		if 1<num:
+			temp = 2;
+			while(temp<num)
+				if g(temp) == 0 :
+					result = 0;
+					break;
+				;
+				temp = temp +1 ;
+			;
+			if result==1:
+				output(num);
+			;
+		;
+	 num = num + 1;
+	;
+	k = temp2 + f(10);
+;
