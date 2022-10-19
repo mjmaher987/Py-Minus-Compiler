@@ -1,0 +1,19 @@
+/*====Sample T5 ====*/
+def main():
+	a = 0;
+	b = 0;
+	a = 10;
+	b = 0;
+	while (b < a)
+		b = b + 1;
+		if b == 2:
+			output (a);
+		else:
+			if 6 < b:
+
+			else:
+				output(b);
+			;
+		;
+	;
+;

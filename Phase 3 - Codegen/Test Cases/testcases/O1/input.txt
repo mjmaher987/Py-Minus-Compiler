@@ -1,0 +1,18 @@
+# === recursive sample 1 ====
+
+def fact(n):
+    f = 0;
+    
+    if n == 1:
+	    f = 1;
+    else:
+        f = fact(n - 1) * n;
+    ;
+
+    return f;
+;
+
+def main():
+     output(fact(3));
+;
+

@@ -1,0 +1,39 @@
+# ==== Sample 3 =====
+# ==== Sample 3 =====
+lower = 2;
+upper = 20;
+
+def remainder(t1, t2):
+    while(0<t1)
+        if t1<t2:
+            return t1;
+        ;
+        t1 = t1 - t2;
+    ;
+    return 0;
+
+;
+
+def main():
+	num = lower;
+	temp = 2;
+	result = 1;
+	while(num<upper+1)
+		result = 1;
+		if 1<num:
+			temp = 2;
+			while(temp<num)
+				if remainder(num, temp) == 0 :
+					result = 0;
+					break;
+				;
+				temp = temp +1 ;
+			;
+			if result==1:
+				output(num);
+			;
+		;
+	 num = num + 1;
+	;
+;
+

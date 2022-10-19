@@ -1,0 +1,73 @@
+
+def abs(a):
+    if a < 0:
+        return 0-a;
+    else:
+        return a;
+    ;
+;
+
+
+def isMultiplier(a,b):
+    i = 0;
+    step = 0;
+    flag = 0;
+
+    if b == 0:
+        return 0;
+    else:
+        i = 1;
+        flag = 0;
+    ;
+
+
+    if a < 0:
+        if b < 0:
+            i = 1;
+        else:
+            i = 0-1;
+        ;
+
+    else:
+        if b < 0:
+            i = 0-1;
+        else:
+            i = 1;
+        ;
+    ;
+
+    step = i;
+    i = i - abs(i);
+    while (abs(i)<abs(a))
+        if i * b == a:
+            flag = 1;
+            break;
+        else:
+            i = i + step;
+        ;
+    ;
+    return flag;
+;
+
+
+def main():
+    i = 1;
+    j = 1;
+    sum = 0;
+    while(i<11)
+        j = 0 ;
+        sum = 0;
+        while(j+2<i)
+            j = j + 1;
+            if isMultiplier(j, 2) == 1:
+                sum = sum + 0;
+            else:
+                sum = sum + j;
+            ;
+        ;
+
+        output(sum);
+        i = i + 1;
+    ;
+
+;

@@ -1,0 +1,16 @@
+# ==== Sample 2 =====
+def foo(x):
+	a = 10;
+	output(x);
+	if a < x:
+		return 0-1;
+	else:
+		return 0-2;
+	;
+;
+
+def main():
+	i = foo(4);
+	output(i);
+;
+
