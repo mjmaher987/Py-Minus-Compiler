@@ -7,7 +7,7 @@
 
 * This repository consists of practical homeworks (project) of Compiler Design course.
 
-*In this project, our group has created a Pi-minus compiler.
+* In this project, our group has created a Pi-minus compiler.
 
 * Instructor: Dr. Gholamreza Ghassemsani
 
@@ -22,3 +22,4 @@ Phase 2 is the parser of this compiler. Parse tree is created in this phase.
 This phase is the main part of the compiler, because the median code is generated.
 
 ## Phase 4 - Semantic Analyser
+Here the errors related to semantic analyser are checked.
