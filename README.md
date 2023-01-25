@@ -15,4 +15,7 @@ Instructor: Dr. Gholamreza Ghassemsani
 ## Phase 1 - Scanner
 Phase 1 is a simple scanner which scans inputs, coverts them to tokens, and then save them in a file as a table.
 
-## Phase 2 - 
+## Phase 2 - Parser
+Phase 2 is the parser of this compiler.
+
+## Phase 3 - 
