@@ -1,15 +1,15 @@
 # CD_SUT
-Compiler Design - Sharif University of Technology
+* Compiler Design - Sharif University of Technology
 
-Mohammad Javad Maheronnaghsh
+* Mohammad Javad Maheronnaghsh
 
 
 
-This repository consists of practical homeworks (project) of Compiler Design course.
+* This repository consists of practical homeworks (project) of Compiler Design course.
 
-In this project, our group has created a Pi-minus compiler.
+*In this project, our group has created a Pi-minus compiler.
 
-Instructor: Dr. Gholamreza Ghassemsani
+* Instructor: Dr. Gholamreza Ghassemsani
 
 
 ## Phase 1 - Scanner
