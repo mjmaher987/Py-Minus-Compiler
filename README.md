@@ -1,4 +1,4 @@
-# CD_SUT
+# Py-Minus-Compiler
 * Compiler Design - Sharif University of Technology
 
 * Mohammad Javad Maheronnaghsh
